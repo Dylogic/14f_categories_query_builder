@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "14f_categories",
+    "dateExported": "2023-11-24T09:09:56.918Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ba653651-aec7-40f2-ab0c-7aaf6ef120ce",
+            "colId": "659386c5-125b-48a9-aad8-3dc7cb021f0a",
+            "containerId": "",
+            "name": "Read all",
+            "url": "http://127.0.0.1:8000/api/category",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-24T08:19:01.810Z",
+            "modified": "2023-11-24T08:19:45.775Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "149658fc-940b-4387-a3e9-d59e61615418",
+            "colId": "659386c5-125b-48a9-aad8-3dc7cb021f0a",
+            "containerId": "",
+            "name": "Read",
+            "url": "http://127.0.0.1:8000/api/category/20",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-11-24T08:31:05.943Z",
+            "modified": "2023-11-24T08:31:34.974Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fc88a094-42fc-4e4a-b6e5-604ce7fbf5fc",
+            "colId": "659386c5-125b-48a9-aad8-3dc7cb021f0a",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://127.0.0.1:8000/api/category/4",
+            "method": "DELETE",
+            "sortNum": 17500,
+            "created": "2023-11-24T08:39:55.039Z",
+            "modified": "2023-11-24T08:40:26.322Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3ccfeff5-9d48-46a4-9ff6-9445c273f0ec",
+            "colId": "659386c5-125b-48a9-aad8-3dc7cb021f0a",
+            "containerId": "",
+            "name": "Create",
+            "url": "http://127.0.0.1:8000/api/category",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-24T08:21:10.072Z",
+            "modified": "2023-11-24T08:28:49.358Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Keyboards\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a0149026-3fcf-42ca-8a59-803fe90b5c53",
+            "colId": "659386c5-125b-48a9-aad8-3dc7cb021f0a",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://127.0.0.1:8000/api/category/3",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-24T08:37:10.263Z",
+            "modified": "2023-11-24T08:38:12.377Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Memories\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
